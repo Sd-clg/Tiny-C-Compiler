@@ -19,6 +19,7 @@
 2. Parsing (Parser) – Builds an Abstract Syntax Tree (AST) from tokens
 3. Code Generation (CodeGen) – Converts the AST into executable Python code
 4. Output – Prints each stage for debugging and understanding
+
 Example: x = 5; y = 3; z = x + y * 2; is tokenized, parsed into an AST, and generates executable Python code.
 
 ## Run with GCC (Local Machine)
