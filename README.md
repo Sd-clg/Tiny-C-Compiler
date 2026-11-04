@@ -11,8 +11,9 @@
 3. Click **Run**
 4. View the tokenized output, AST, and generated code in the console
 
-What It Does
-The compiler performs four key operations:
+# What It Does
+
+## The compiler performs four key operations:
 
 Tokenization (Lexer) – Breaks input code into tokens (numbers, identifiers, operators)
 Parsing (Parser) – Builds an Abstract Syntax Tree (AST) from tokens
