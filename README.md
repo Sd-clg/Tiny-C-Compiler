@@ -11,6 +11,15 @@
 3. Click **Run**
 4. View the tokenized output, AST, and generated code in the console
 
+What It Does
+The compiler performs four key operations:
+
+Tokenization (Lexer) – Breaks input code into tokens (numbers, identifiers, operators)
+Parsing (Parser) – Builds an Abstract Syntax Tree (AST) from tokens
+Code Generation (CodeGen) – Converts the AST into executable Python code
+Output – Prints each stage for debugging and understanding
+Example: x = 5; y = 3; z = x + y * 2; is tokenized, parsed into an AST, and generates executable Python code.
+
 ## Run with GCC (Local Machine)
 
 Since this project is written in Python, not C, use Python instead:
@@ -22,11 +31,3 @@ bash
 
 
 python3 code\_cleaned.py
-What It Does
-The compiler performs four key operations:
-
-Tokenization (Lexer) – Breaks input code into tokens (numbers, identifiers, operators)
-Parsing (Parser) – Builds an Abstract Syntax Tree (AST) from tokens
-Code Generation (CodeGen) – Converts the AST into executable Python code
-Output – Prints each stage for debugging and understanding
-Example: x = 5; y = 3; z = x + y * 2; is tokenized, parsed into an AST, and generates executable Python code.
