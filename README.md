@@ -26,10 +26,10 @@ Example: x = 5; y = 3; z = x + y * 2; is tokenized, parsed into an AST, and gene
 
 Since this project is written in Python, not C, use Python instead:
 ```bash
-python code\_cleaned.py
+python tiny\_c\_compiler.py
 Or with Python 3:
 
 bash
 
 
-python3 code\_cleaned.py
+python3 tiny\_c\_compiler.py
